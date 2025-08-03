@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "last_updated": "2025-01-04",
+  "description": "Override database for NEU quiz questions",
+  "questions": [
+    {
+      "id": "logistics_001",
+      "question": "Hoạt động 'liên hệ thông tin đơn hàng qua điện thoại với khách hàng' là hoạt động trong quá trình nào của quá trình xử lý đơn hàng",
+      "choices": [
+        "Chuẩn bị đơn hàng",
+        "Truyền tin",
+        "Đáp ứng đơn hàng",
+        "Không có đáp án nào đúng"
+      ],
+      "correct_answer": "Chuẩn bị đơn hàng",
+      "subject": "Logistics",
+      "confidence": "high",
+      "notes": "Database gốc có 2 đáp án khác nhau, đã xác minh từ sách giáo khoa",
+      "verified_by": "textbook_chapter_5",
+      "created_at": "2025-01-04"
+    }
+  ]
+}
