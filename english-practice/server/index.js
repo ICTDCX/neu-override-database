@@ -20,7 +20,8 @@ app.post('/api/request-otp', (req, res) => {
   const code = genCode()
   otpStore.set(email, { code, exp: Date.now() + 5 * 60_000 })
   console.log('OTP for', email, code)
-  return res.json({ ok: true })
+  // demo: return code so user can test quickly
+  return res.json({ ok: true, debugCode: code })
 })
 
 app.post('/api/verify-otp', (req, res) => {
